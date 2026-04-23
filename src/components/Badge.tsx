@@ -1,5 +1,5 @@
 import { type VariantProps, cva } from 'class-variance-authority';
-import { ImageProps, Text, View, Image } from 'react-native';
+import { ImageSourcePropType, Text, View, Image } from 'react-native';
 
 import { cn } from '../lib/utils';
 
@@ -36,7 +36,7 @@ export interface BadgeProps
     VariantProps<typeof badgeVariants> {
   label: string;
   labelClasses?: string;
-  icon: ImageProps;
+  icon: ImageSourcePropType;
 }
 function Badge({
   label,
