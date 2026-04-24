@@ -21,7 +21,7 @@ export function Preferences(props: TextProps) {
         <Option.Icon icon="email" />
         <Option.Title>Public email</Option.Title>
         <Option.Control>
-          <Checkbox checkboxClasses="w-5 h-5 border-gray-400" />
+          <Checkbox />
         </Option.Control>
       </Option>
     </View>
